@@ -9,7 +9,7 @@ const NewsletterBar = () => {
       <p className="hidden font-inter font-normal text-[0.75rem] text-gray-200 md:block">
         Subscribe to our Newsletter For New & latest Blogs and Resources
       </p>
-      <img src={ArrowIcon} className="yellow-icon size-5" />
+      <img src={ArrowIcon} className="yellow-icon size-5 cursor-pointer" />
     </div>
   );
 };

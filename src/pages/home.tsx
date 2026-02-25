@@ -1,7 +1,12 @@
-import { NewsletterBar } from "../components";
+import { NavigationBar, NewsletterBar } from "../components";
 
 const Home = () => {
-  return <NewsletterBar />;
+  return (
+    <>
+      <NewsletterBar />
+      <NavigationBar />
+    </>
+  );
 };
 
 export default Home;
