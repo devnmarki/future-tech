@@ -1,5 +1,5 @@
-import Home from "./pages/home";
-import News from "./pages/news";
+import Home from "./pages/Home";
+import News from "./pages/News";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 

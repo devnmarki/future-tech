@@ -1,5 +1,7 @@
+import { NewsletterBar } from "../components";
+
 const Home = () => {
-  return <h1>Home Page!</h1>;
+  return <NewsletterBar />;
 };
 
 export default Home;
