@@ -1,12 +1,12 @@
 interface HeaderProps {
-  text?: string;
+  children?: string;
   className?: string;
 }
 
-const Header = ({ text, className }: HeaderProps) => {
+const Header = ({ children, className }: HeaderProps) => {
   return (
     <h1 className={`${className} font-kumbh-sans font-medium text-white`}>
-      {text}
+      {children}
     </h1>
   );
 };
