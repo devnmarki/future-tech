@@ -1,5 +1,12 @@
+import { NavigationBar, NewsletterBar } from "../components";
+
 const News = () => {
-  return <h1>News Page!</h1>;
+  return (
+    <>
+      <NewsletterBar />
+      <NavigationBar />
+    </>
+  );
 };
 
 export default News;
