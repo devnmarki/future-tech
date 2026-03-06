@@ -3,6 +3,7 @@ export { default as NavigationBar } from "./common/NavigationBar";
 export { default as HeroSection } from "./common/HeroSection";
 
 export { default as FilledButton } from "./ui/FilledButton";
+export { default as Button } from "./ui/Button";
 export { default as Header } from "./ui/Header";
 export { default as Text } from "./ui/Text";
 
