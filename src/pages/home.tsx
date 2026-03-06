@@ -1,4 +1,4 @@
-import { NewsletterBar, NavigationBar, HeroSection } from "../components";
+import { HeroSection, NavigationBar, NewsletterBar } from "../components";
 
 const Home = () => {
   return (
