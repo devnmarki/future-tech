@@ -10,3 +10,4 @@ export { default as Text } from "./ui/Text";
 export { default as MenuItemContainer } from "./ui/nav/MenuItemContainer";
 export { default as Shadow } from "./ui/Shadow";
 export { default as Stat } from "./ui/Stat";
+export { default as HighlightCard } from "./ui/hero/HighlightCard";
