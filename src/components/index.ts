@@ -1,6 +1,7 @@
 export { default as NewsletterBar } from "./common/NewsletterBar";
 export { default as NavigationBar } from "./common/NavigationBar";
-export { default as HeroSection } from "./common/HeroSection";
+export { default as HeroSection } from "./common/home/HeroSection";
+export { default as SectionHeader } from "./common/SectionHeader";
 
 export { default as FilledButton } from "./ui/FilledButton";
 export { default as Button } from "./ui/Button";

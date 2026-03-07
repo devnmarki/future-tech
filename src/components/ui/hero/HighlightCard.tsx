@@ -5,7 +5,6 @@ interface HighlightCardProps {
   title: string;
   subtitle: string;
   description: string;
-  border?: boolean;
 }
 
 const HighlightCard = ({
@@ -13,7 +12,6 @@ const HighlightCard = ({
   title,
   subtitle,
   description,
-  border,
 }: HighlightCardProps) => {
   return (
     <div

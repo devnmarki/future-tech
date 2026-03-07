@@ -6,7 +6,7 @@ import Profile4Picture from "/images/profile_4.png";
 import HighlightIcon1 from "/icons/highlight-icon-1.svg";
 import HighlightIcon2 from "/icons/highlight-icon-2.svg";
 import HighlightIcon3 from "/icons/highlight-icon-3.svg";
-import { Header, Stat, Text, Button, HighlightCard } from "..";
+import { Header, Stat, Text, Button, HighlightCard } from "../..";
 
 const HeroSection = () => {
   return (

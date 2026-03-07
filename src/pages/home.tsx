@@ -1,4 +1,9 @@
-import { HeroSection, NavigationBar, NewsletterBar } from "../components";
+import {
+  HeroSection,
+  NavigationBar,
+  NewsletterBar,
+  SectionHeader,
+} from "../components";
 
 const Home = () => {
   return (
@@ -6,6 +11,10 @@ const Home = () => {
       <NewsletterBar />
       <NavigationBar />
       <HeroSection />
+      <SectionHeader
+        header="FutureTech Features"
+        subheader="Unlock the Power of"
+      />
     </>
   );
 };
