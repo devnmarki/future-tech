@@ -3,6 +3,7 @@ import {
   NavigationBar,
   NewsletterBar,
   SectionHeader,
+  FeaturesSection,
 } from "../components";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         header="FutureTech Features"
         subheader="Unlock the Power of"
       />
+      <FeaturesSection />
     </>
   );
 };
