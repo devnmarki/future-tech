@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Header, Text, Card } from "../..";
-import Content from "./Content";
+import FeatureLayerContent from "./FeatureLayerContent";
 
 type CardData = {
   header: string;
@@ -45,6 +45,6 @@ const FeatureLayer = ({
   );
 };
 
-FeatureLayer.Content = Content;
+FeatureLayer.Content = FeatureLayerContent;
 
 export default FeatureLayer;

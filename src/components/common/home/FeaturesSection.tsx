@@ -1,4 +1,4 @@
-import { FeatureLayer } from "../../..";
+import { FeatureLayer } from "../..";
 import FeatureIcon1 from "/icons/feature-icon-1.svg";
 import FeatureIcon2 from "/icons/feature-icon-2.svg";
 

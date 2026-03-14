@@ -6,7 +6,7 @@ interface ContentProps {
   description: string;
 }
 
-const Content = ({ icon, header, description }: ContentProps) => (
+const FeatureLayerContent = ({ icon, header, description }: ContentProps) => (
   <>
     <img src={icon} className="w-12.5 lg:w-15 2xl:w-20 mb-5 lg:mb-10" alt="" />
     <Header className="text-[1.5rem] lg:text-[1.875rem] 2xl:text-[2.5rem] mb-1.5">
@@ -18,4 +18,4 @@ const Content = ({ icon, header, description }: ContentProps) => (
     <div className="w-full h-px bg-black-300 xl:hidden"></div>
   </>
 );
-export default Content;
+export default FeatureLayerContent;
