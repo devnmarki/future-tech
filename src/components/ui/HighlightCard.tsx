@@ -1,4 +1,4 @@
-import { Text, Header } from "../..";
+import { Text, Header } from "..";
 
 interface HighlightCardProps {
   icon: string;
