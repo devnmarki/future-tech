@@ -31,6 +31,15 @@ const Home = () => {
         </Button>
       </SectionHeader>
       <BlogPostsSection />
+
+      <SectionHeader
+        header="Unlock Valuable Knowledge with FutureTech's Resources"
+        subheader="Your Gateway to In-Depth Information"
+      >
+        <Button className="w-full max-w-89.5 lg:w-fit mt-7.5 lg:mt-0 text-[0.875rem]">
+          View All Resources
+        </Button>
+      </SectionHeader>
     </>
   );
 };
