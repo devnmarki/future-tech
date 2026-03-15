@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FilterButton } from "../../ui/button";
+import { HomeBlogPosts } from "../../../data/blogs";
+import { BlogPost, FilterButton } from "../..";
 
 const filterCategories: string[] = [
   "All",
@@ -25,6 +26,11 @@ const BlogPostsSection = () => {
           >
             {category}
           </FilterButton>
+        ))}
+      </div>
+      <div className="flex flex-col">
+        {HomeBlogPosts.map((blogData, index) => (
+          <BlogPost data={blogData} key={index} />
         ))}
       </div>
     </section>

@@ -17,3 +17,5 @@ export { default as Stat } from "./ui/Stat";
 
 export { default as HighlightCard } from "./ui/HighlightCard";
 export { default as Card } from "./ui/card/Card";
+
+export { default as BlogPost } from "./ui/blog-post/BlogPost";
