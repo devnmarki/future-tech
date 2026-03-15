@@ -4,6 +4,7 @@ import {
   NewsletterBar,
   SectionHeader,
   FeaturesSection,
+  BlogPostsSection,
   Button,
 } from "../components";
 
@@ -29,6 +30,7 @@ const Home = () => {
           View All Blogs
         </Button>
       </SectionHeader>
+      <BlogPostsSection />
     </>
   );
 };

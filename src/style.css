@@ -26,3 +26,13 @@
     filter: brightness(0) saturate(100%) invert(85%) sepia(96%) saturate(1218%)
         hue-rotate(359deg) brightness(105%) contrast(102%);
 }
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+}
