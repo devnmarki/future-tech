@@ -42,6 +42,15 @@ const Home = () => {
         </Button>
       </SectionHeader>
       <ResourcesSection />
+
+      <SectionHeader
+        header="Real Words from Real Readers"
+        subheader="What Our Readers Say"
+      >
+        <Button className="w-full max-w-89.5 lg:w-fit mt-7.5 lg:mt-0 text-[0.875rem]">
+          View All Testimonials
+        </Button>
+      </SectionHeader>
     </>
   );
 };
