@@ -7,6 +7,7 @@ export * from "./common/home/index";
 
 export * from "./ui/features/index";
 export * from "./ui/resources/index";
+export * from "./ui/testimonials/index";
 export * from "./ui/button/index";
 
 export { default as Header } from "./ui/Header";

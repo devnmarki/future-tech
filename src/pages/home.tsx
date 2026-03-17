@@ -7,6 +7,7 @@ import {
   BlogPostsSection,
   Button,
   ResourcesSection,
+  TestimonialsSection,
 } from "../components";
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
           View All Testimonials
         </Button>
       </SectionHeader>
+      <TestimonialsSection />
     </>
   );
 };
