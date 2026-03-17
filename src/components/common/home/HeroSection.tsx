@@ -27,7 +27,7 @@ const HeroSection = () => {
                 your passport to a world where machines think, learn, and
                 reshape the future.
               </Text>
-              <Text className="hidden text-[1rem] lg:block">
+              <Text className="hidden text-md lg:block">
                 Welcome to the epicenter of AI innovation. FutureTech AI News is
                 your passport to a world where machines think, learn, and
                 reshape the future. Join us on this visionary expedition into
@@ -94,7 +94,7 @@ const HeroSection = () => {
               <Header className="text-lg lg:text-xl 2xl:text-2xl mb-2">
                 Explore 1000+ resources
               </Header>
-              <Text className="text-sm lg:text-[1rem]">
+              <Text className="text-sm lg:text-md">
                 Over 1,000 articles on emerging tech trends and breakthroughs.
               </Text>
             </div>

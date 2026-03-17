@@ -23,12 +23,12 @@ const HighlightCard = ({
           <Header className="lg:text-[1.125rem] 2xl:text-[1.25rem]">
             {title}
           </Header>
-          <Text className="text-[0.875rem] lg:text-[1rem] 2xl:text-[1.125rem]">
+          <Text className="text-[0.875rem] lg:text-md 2xl:text-[1.125rem]">
             {subtitle}
           </Text>
         </div>
       </div>
-      <Text className="text-[0.875rem] lg:text-[1rem] 2xl:text-[1.25rem]">
+      <Text className="text-[0.875rem] lg:text-md 2xl:text-[1.25rem]">
         {description}
       </Text>
     </div>

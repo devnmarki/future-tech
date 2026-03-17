@@ -26,7 +26,7 @@ const BlogPost = ({ data, buttonContent = "View Blog" }: BlogPost) => {
             <Header className="font-inter text-[1.125rem] 2xl:text-[1.25rem]">
               {data.name}
             </Header>
-            <Text className="text-[0.875rem] xl:text-[1rem] 2xl:text-[1.125rem]">
+            <Text className="text-[0.875rem] xl:text-md 2xl:text-[1.125rem]">
               {data.profession}
             </Text>
           </div>
@@ -35,14 +35,14 @@ const BlogPost = ({ data, buttonContent = "View Blog" }: BlogPost) => {
         <div className="flex flex-col xl:flex-row lg:items-center gap-x-10 gap-y-7.5">
           <div className="flex flex-col gap-y-7.5">
             <div className="flex flex-col gap-y-5 xl:w-3xl 2xl:w-200">
-              <p className="font-inter font-semibold text-[1rem] xl:text-[1.125rem] 2xl:text-[1.25rem] text-gray-200">
+              <p className="font-inter font-semibold text-md xl:text-[1.125rem] 2xl:text-[1.25rem] text-gray-200">
                 {data.post.date}
               </p>
               <div className="flex flex-col gap-y-1">
                 <Header className="text-[1.125rem] xl:text-[1.375rem] 2xl:text-[1.625rem]">
                   {data.post.header}
                 </Header>
-                <Text className="text-[0.875rem] xl:text-[1rem] 2xl:text-[1.125rem]">
+                <Text className="text-[0.875rem] xl:text-md 2xl:text-[1.125rem]">
                   {data.post.description}
                 </Text>
               </div>
@@ -76,7 +76,7 @@ const BlogPost = ({ data, buttonContent = "View Blog" }: BlogPost) => {
             </div>
           </div>
 
-          <Button className="w-full xl:w-fit xl:h-fit text-[0.875rem] xl:text-[1rem] 2xl:text-[1.125rem] px-5">
+          <Button className="w-full xl:w-fit xl:h-fit text-[0.875rem] xl:text-md 2xl:text-[1.125rem] px-5">
             {buttonContent}
           </Button>
         </div>

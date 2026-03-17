@@ -35,7 +35,7 @@ const FeatureLayer = ({
               <Header className="text-[1.125rem] lg:tex-[1.25rem] 2xl:text-[1.5rem]">
                 {card.header}
               </Header>
-              <Text className="text-[0.875rem] lg:text-[1rem] 2xl:text-[1.125rem]">
+              <Text className="text-[0.875rem] lg:text-md 2xl:text-[1.125rem]">
                 {card.description}
               </Text>
             </Card>
