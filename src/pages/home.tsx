@@ -8,6 +8,7 @@ import {
   Button,
   ResourcesSection,
   TestimonialsSection,
+  CTASection,
 } from "../components";
 
 const Home = () => {
@@ -53,6 +54,8 @@ const Home = () => {
         </Button>
       </SectionHeader>
       <TestimonialsSection />
+
+      <CTASection />
     </>
   );
 };

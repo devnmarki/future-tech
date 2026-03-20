@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
           <div className="hidden xl:block w-px self-stretch bg-black-300"></div>
           <Testimonial
             data={testimonialsData[5]}
-            className="xl:mr-20 2xl:mr-40.5"
+            className="xl:mr-20 2xl:mr-40.5 border-none"
           />
         </div>
       </div>
