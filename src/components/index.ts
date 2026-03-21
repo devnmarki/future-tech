@@ -2,6 +2,7 @@ export { default as NewsletterBar } from "./common/NewsletterBar";
 export { default as NavigationBar } from "./common/NavigationBar";
 export { default as SectionHeader } from "./common/SectionHeader";
 export { default as CTASection } from "./common/CTASection";
+export { default as Footer } from "./common/Footer";
 
 // Home Page Sections
 export * from "./common/home/index";
@@ -22,3 +23,4 @@ export { default as HighlightCard } from "./ui/HighlightCard";
 export { default as Card } from "./ui/card/Card";
 
 export { default as BlogPost } from "./ui/blog-post/BlogPost";
+export { default as FooterLinksContainer } from "./ui/FooterLinksContainer";

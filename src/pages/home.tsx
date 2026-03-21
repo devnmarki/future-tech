@@ -9,6 +9,7 @@ import {
   ResourcesSection,
   TestimonialsSection,
   CTASection,
+  Footer,
 } from "../components";
 
 const Home = () => {
@@ -56,6 +57,7 @@ const Home = () => {
       <TestimonialsSection />
 
       <CTASection />
+      <Footer />
     </>
   );
 };
