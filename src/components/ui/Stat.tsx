@@ -1,4 +1,4 @@
-import { Text } from "..";
+import { Text } from ".";
 
 interface StatProps {
   value: number;

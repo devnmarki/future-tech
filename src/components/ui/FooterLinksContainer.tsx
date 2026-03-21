@@ -1,9 +1,9 @@
-import { Link } from "react-router";
-import { Header } from "..";
+import { Header } from ".";
+import { HashLink } from "react-router-hash-link";
 
 interface FooterLinksContainerProps {
   header: string;
-  links: { name: string; isNew?: boolean }[];
+  links: { name: string; isNew?: boolean; href?: string }[];
 }
 
 const FooterLinksContainer = ({ header, links }: FooterLinksContainerProps) => {
@@ -13,12 +13,13 @@ const FooterLinksContainer = ({ header, links }: FooterLinksContainerProps) => {
       <div className="flex flex-col gap-y-2 xl:gap-y-3">
         {links.map((link, index) => (
           <div key={index} className="flex items-center gap-x-2">
-            <Link
-              to={"#"}
+            <HashLink
+              smooth
+              to={link.href != null ? link.href : "#"}
               className="font-inter text-sm xl:text-md 2xl:text-lg text-black-800 transition-colors hover:text-white truncate"
             >
               {link.name}
-            </Link>
+            </HashLink>
             {link.isNew && (
               <span className="px-2 py-0.5 text-[10px] 2xl:text-sm bg-black-200 border border-black-300 text-white rounded-md">
                 New

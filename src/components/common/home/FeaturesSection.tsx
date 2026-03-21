@@ -58,7 +58,7 @@ const layers = [
 
 const FeaturesSection = () => {
   return (
-    <section>
+    <section id="features">
       {layers.map((layer, index) => (
         <FeatureLayer key={index} cards={layer.cards}>
           <FeatureLayer.Content

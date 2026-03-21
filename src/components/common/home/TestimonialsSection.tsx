@@ -3,7 +3,10 @@ import { testimonialsData } from "../../../data/testimonials";
 
 const TestimonialsSection = () => {
   return (
-    <section className="flex flex-col items-center w-full bg-black-100">
+    <section
+      id="testimonials"
+      className="flex flex-col items-center w-full bg-black-100"
+    >
       <div className="flex flex-col">
         <div className="flex flex-col xl:flex-row xl:gap-x-10">
           <Testimonial

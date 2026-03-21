@@ -1,5 +1,5 @@
 import type { ResourceRowData } from "../../../data/resources";
-import { Header, Text, Button, Card } from "../..";
+import { Header, Text, Button, Card } from "..";
 
 interface ResourceRowProps {
   data: ResourceRowData;

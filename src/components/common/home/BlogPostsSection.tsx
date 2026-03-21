@@ -15,7 +15,7 @@ const BlogPostsSection = () => {
   const [currentFilter, setCurrentFilter] = useState(0);
 
   return (
-    <section>
+    <section id="blog-posts">
       <div className="flex xl:justify-center gap-x-3.5 bg-black-100 border-b px-4 lg:px-20 py-5 border-black-300 overflow-x-auto no-scrollbar">
         {filterCategories.map((category, index) => (
           <FilterButton

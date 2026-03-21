@@ -3,7 +3,7 @@ import LikeFillIcon from "/icons/like-fill.svg";
 import CommentIcon from "/icons/comment-icon.svg";
 import DeliveryIcon from "/icons/delivery-icon.svg";
 import type { BlogType } from "../../../data/blogs";
-import { Button, Header, Text } from "../..";
+import { Button, Header, Text } from "..";
 import { useState } from "react";
 
 interface BlogPost {

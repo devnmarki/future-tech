@@ -6,10 +6,10 @@ import { Link } from "react-router";
 
 const footerLinks = {
   Home: [
-    { name: "Features" },
-    { name: "Blogs" },
-    { name: "Resources", isNew: true },
-    { name: "Testimonials" },
+    { name: "Features", href: "/#features" },
+    { name: "Blogs", href: "/#blog-posts" },
+    { name: "Resources", isNew: true, href: "/#resources" },
+    { name: "Testimonials", href: "/#testimonials" },
     { name: "Contact Us" },
     { name: "Newsletter" },
   ],
