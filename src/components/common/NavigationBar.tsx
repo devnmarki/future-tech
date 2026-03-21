@@ -34,7 +34,7 @@ const NavigationBar = () => {
 
       <Shadow shown={drawerShown} />
       <div
-        className={`${drawerShown ? "flex" : "hidden"} flex-col gap-12 fixed right-0 top-0 w-79 h-full bg-black-100 z-20 p-5`}
+        className={`${drawerShown ? "flex" : "hidden"} flex-col gap-12 fixed right-0 top-0 w-79 h-full bg-black-100 z-30 p-5`}
       >
         <img
           src={XMarkIcon}
