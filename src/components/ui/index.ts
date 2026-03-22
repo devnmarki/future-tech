@@ -1,4 +1,6 @@
 export * from "./home/index";
+export * from "./news/index";
+
 export * from "./button/index";
 
 export { default as Header } from "./Header";

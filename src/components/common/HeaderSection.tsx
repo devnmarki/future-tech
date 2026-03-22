@@ -12,7 +12,7 @@ const HeaderSection = ({
   description,
 }: HeaderSection) => {
   return (
-    <header className="flex justify-center w-full bg-black-100 px-4">
+    <header className="flex justify-center w-full bg-black-100 px-4 xl:px-0">
       <div className="flex flex-col gap-y-3.5 py-10 max-w-89.5 lg:max-w-120 xl:hidden">
         <Header className="text-[1.75rem]">
           {headerPrimary + " " + headerSecondary}

@@ -62,3 +62,26 @@ export const HomeBlogPosts: BlogType[] = [
     },
   },
 ];
+
+export type MainBlogCardType = {
+  imageLink: string;
+  header: string;
+  description: string;
+  category: string;
+  publicationDate: string;
+  author: string;
+  likes: string;
+  deliveries: number;
+};
+
+export const NewsMainBlogCard: MainBlogCardType = {
+  imageLink: "/images/main_blog_image.png",
+  header: "Global Climate Summit Addresses Urgent Climate Action",
+  description:
+    "World leaders gathered at the Global Climate Summit to discuss urgent climate action, emissions reductions.",
+  category: "Enviroment",
+  publicationDate: "October 10, 2026",
+  author: "Jane Smith",
+  likes: "14k",
+  deliveries: 204,
+};

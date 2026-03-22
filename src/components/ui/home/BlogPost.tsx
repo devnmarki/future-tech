@@ -1,9 +1,7 @@
-import LikeIcon from "/icons/like.svg";
-import LikeFillIcon from "/icons/like-fill.svg";
 import CommentIcon from "/icons/comment-icon.svg";
 import DeliveryIcon from "/icons/delivery-icon.svg";
 import type { BlogType } from "../../../data/blogs";
-import { Button, Header, Text } from "..";
+import { ActionButton, Button, Header, LikeButton, Text } from "..";
 import { useState } from "react";
 
 interface BlogPost {
@@ -49,30 +47,13 @@ const BlogPost = ({ data, buttonContent = "View Blog" }: BlogPost) => {
             </div>
 
             <div className="flex gap-x-2">
-              <button
-                className="flex items-center gap-x-0.5 w-fit h-fit px-3 2xl:px-4 py-1.5 2xl:py-2 bg-black-200 border border-black-300 font-kumbh-sans text-[0.875rem] 2xl:text-[1.125rem] text-gray-200 rounded-full cursor-pointer"
-                onClick={() => setLiked(!liked)}
-              >
-                <img
-                  src={LikeIcon}
-                  className={`${liked ? "hidden" : "block"}`}
-                />
-                <img
-                  src={LikeFillIcon}
-                  className={`${liked ? "block" : "hidden"}`}
-                />
-                {data.post.likes}
-              </button>
-
-              <button className="flex items-center gap-x-0.5 px-3 py-1.5 bg-black-200 border border-black-300 font-kumbh-sans text-[0.875rem] 2xl:text-[1.125rem] text-gray-200 rounded-full cursor-pointer">
-                <img src={CommentIcon} />
-                {data.post.comments}
-              </button>
-
-              <button className="flex items-center gap-x-0.5 px-3 py-1.5 bg-black-200 border border-black-300 font-kumbh-sans text-[0.875rem] 2xl:text-[1.125rem] text-gray-200 rounded-full cursor-pointer">
-                <img src={DeliveryIcon} />
-                {data.post.deliveries}
-              </button>
+              <LikeButton
+                count={data.post.likes.toString()}
+                setLiked={setLiked}
+                liked={liked}
+              />
+              <ActionButton icon={CommentIcon} count={data.post.comments} />
+              <ActionButton icon={DeliveryIcon} count={data.post.deliveries} />
             </div>
           </div>
 
