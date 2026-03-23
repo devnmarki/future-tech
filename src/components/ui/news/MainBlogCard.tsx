@@ -12,7 +12,7 @@ const MainBlogCard = ({ data }: MainBlogCardProps) => {
 
   return (
     <div className="flex justify-center w-full px-4 xl:px-20 2xl:px-40.5 py-10 xl:py-15 2xl:py-20 bg-black-100 border-t border-black-300">
-      <div className="flex flex-col xl:flex-row gap-y-7.5 xl:gap-x-10  max-w-89.5 xl:max-w-none">
+      <div className="flex flex-col xl:flex-row gap-y-7.5 xl:gap-x-10 2xl:gap-x-20 max-w-89.5 xl:max-w-none">
         <div
           style={{ backgroundImage: `url(${data.imageLink})` }}
           className="self-center w-full xl:w-128.75 xl:min-w-128.75 h-53.5 xl:h-81.25 2xl:h-106.75 bg-no-repeat bg-cover rounded-[10px]"
