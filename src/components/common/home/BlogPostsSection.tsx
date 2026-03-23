@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HomeBlogPosts } from "../../../data/blogs";
+import { type BlogType } from "../../../data/blogs";
 import { BlogPost, FilterButton } from "../..";
 
 const filterCategories: string[] = [
@@ -11,7 +11,11 @@ const filterCategories: string[] = [
   "Renewable Energy",
 ];
 
-const BlogPostsSection = () => {
+interface BlogPostsSectionProps {
+  data: BlogType[];
+}
+
+const BlogPostsSection = ({ data }: BlogPostsSectionProps) => {
   const [currentFilter, setCurrentFilter] = useState(0);
 
   return (
@@ -29,7 +33,7 @@ const BlogPostsSection = () => {
         ))}
       </div>
       <div className="flex flex-col">
-        {HomeBlogPosts.map((blogData, index) => (
+        {data.map((blogData, index) => (
           <BlogPost data={blogData} key={index} />
         ))}
       </div>

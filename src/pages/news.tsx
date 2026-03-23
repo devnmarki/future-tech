@@ -1,13 +1,16 @@
 import {
   BlogCardContainer,
+  BlogPostsSection,
+  Button,
   CTASection,
   Footer,
   HeaderSection,
   MainBlogCard,
   NavigationBar,
   NewsletterBar,
+  SectionHeader,
 } from "../components";
-import { NewsMainBlogCard } from "../data/blogs";
+import { NewsBlogPosts, NewsMainBlogCard } from "../data/blogs";
 
 const News = () => {
   return (
@@ -22,6 +25,16 @@ const News = () => {
       />
       <MainBlogCard data={NewsMainBlogCard} />
       <BlogCardContainer />
+
+      <SectionHeader
+        header="Discover the World of Headlines"
+        subheader="Welcome to Our News Hub"
+      >
+        <Button className="w-full max-w-89.5 lg:w-fit mt-7.5 lg:mt-0 text-[0.875rem]">
+          View All News
+        </Button>
+      </SectionHeader>
+      <BlogPostsSection data={NewsBlogPosts} />
 
       <CTASection />
       <Footer />

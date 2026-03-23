@@ -11,6 +11,7 @@ import {
   CTASection,
   Footer,
 } from "../components";
+import { HomeBlogPosts } from "../data/blogs";
 
 const Home = () => {
   return (
@@ -34,7 +35,7 @@ const Home = () => {
           View All Blogs
         </Button>
       </SectionHeader>
-      <BlogPostsSection />
+      <BlogPostsSection data={HomeBlogPosts} />
 
       <SectionHeader
         header="Unlock Valuable Knowledge with FutureTech's Resources"
